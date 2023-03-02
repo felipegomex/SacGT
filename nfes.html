@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://kit.fontawesome.com/29520a49ae.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link href='https://css.gg/arrow-right-r.css' rel='stylesheet'>
+    <title>Wiki GT Provedores</title>
+    <head><style> a {text-decoration: none; } </style> </head>
+  </head>
+  <body>
+	<script src="index.js"></script>
+
+  <section>
+    <header> 
+      <div class="content">
+        <div class="logo">
+          <a href="index.html"><img src = "images/logo2.png" alt = "logo da GT"></a>
+        </div>
+        <div class="menu"> 
+          <nav>
+            <a href="index.html"> Home </a>
+            <a href="sobre.html"> Sobre </a>
+            <a href="sobre.html"> Provedores </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </section>
+
+
+  </br> 
+  <section>
+    <div class="os">
+      <h3>Remessa para Conserto</h3>
+      <i><h4>Pessoa Jurídica</h4></i>
+  
+      <p><b>1.</b> Identificar o CNPJ do Cliente.
+        <div class="sub">
+          <p>1.1. <a href="os.html">→ Abrir O.S</p></a>
+        </div>
+
+        <p><b>2.</b> Gerar Nota de Entrada e Saída (Gerar NFE e NFS).</p>
+        <div class="sub">
+          <p>2.1. → Minimal -> Ibyte -> Logística - NFS e NFE</p>
+          <img src="images/nffs/1.png" width="720px">
+          <p>2.2. → Clicar em cancelar</p>
+          <img src="images/nffs/2.png" width="720px">
+          <p>2.3. → Comandos -> Gerar NFE e NFS Cliente e Preencher</p>
+          <img src="images/nffs/3.png" width="720px">
+          <p>2.4. → Digitar NOS (O.S Gerada) e Terminar</p>
+          <img src="images/nffs/4.png" width="720px">
+        </div>
+
+        <p><b>3.</b> Validação da NFE</p>
+        <div class="sub">
+          <p>3.1. → Minimal -> Ibyte -> Logística </p>
+          <p>3.2. → Preencher com CL do Cliente e NF%. Ir na aba Linhas e preencher com código do produto. Clicar em ok, como abaixo: </p>
+          <img src="images/nffs/5.png" width="720px">
+          <p>3.3. → Validar documento de entrada (NFE). Selecionar as duas notas e clicar em ALTERAR.</p>
+          <img src="images/nffs/6.png" width="720px">
+          <p>3.4. → Apagar código do produto e adicionar CIF em Tipo de Frete, como abaixo:</p>
+          <img src="images/nffs/7.png" width="720px">
+          <p>3.5. → Clicar em texto associado e digitar "Referente a NF: (número da nota).</p>
+          <img src="images/nffs/8.png" width="720px">
+          <p>3.6. → Caso a nota tenha mais produtos do que o já inserido, clicar em LINHAS > INSERIR e PREENCHER como abaixo:</p>
+          <img src="images/nffs/.png" width="720px">
+          <p>3.7. → Caso não possua mais produto na nota, seguir:</p>
+          <p>3.8. → Clicar em Contábil > Confirma e Operacional > Confirmar EMISS/RECEPCAO</p>
+          <p>3.9. → Validar ENTRADA do produto, clicar em VEE e preencher o Código de Barras e Serial Number (Código+01).</p>
+          <img src="images/nffs/9.png" width="720px">
+          <p>3.10. → Clicar em DOC Fiscal > RMA > Gerar TNF Retorn FN (NFE 915).</p>
+          <img src="images/nffs/10.png" width="720px">
+          <p>3.11. → Preencher:</p>
+            Número do Documento: Filial F51: final do CNPJ 53-35 / Filial  F03: final do CNPJ 04-57 / Modelo: F51/938491</p>
+            Data Emissão: Data que contém na NOTA </p>
+            Data de Selo: Data da Entrada</p>
+          <p>3.12. → Confirmar TNF. Clicar em Operacional > Confirm FORNECIM/OPERAÇAO. E digitar a chave de acesso</p>
+          <img src="images/nffs/11.png" width="720px">
+          <p>3.13. → Confererir se a NFE está: E0 e CT. E a TNF está: E0 e CF. E as Notas devem ter o MESMO VALOR.</p>
+          <img src="images/nffs/12.png" width="720px">
+        </div>
+
+        <p><b></b> 4. Avaliar o produto.
+          <div class="sub">
+            <p>4.1. → Verificar possibilidade de conserto com técnicos. </p>
+            <p>4.2. → Caso não haja possibilidade de conserto, trocar por um novo. Solicitar no estoque.</p>
+          </div>
+
+        <p><b>5.</b> Validação da NFS</p>
+        <div class="sub">
+          <p>5.1. → Minimal -> Ibyte -> Logística </p>
+          <p>5.2. → Preencher com CL do Cliente e NF%. Ir na aba Linhas e preencher com código do produto. Clicar em ok, como abaixo: </p>
+          <img src="images/nffs/.png" width="720px">
+          <p>5.3. → Clicar em Contábil > Confirma e Operacional > Confirmar EMISS/RECEPCAO</p>
+          <p>5.4. → Validar SAÍDA do produto, clicar em VSE e preencher o Código de Barras e Serial Number (Código+01).</p>
+          <p>5.5. → Clicar em DOC Fiscal > RMA > Gerar NNF Remessa(NFS) 916.</p>
+          <img src="images/nffs/13.png" width="720px">
+          <p>5.6. → Clicar em Contábil > Confirma. E clicar em IMP, QTD de Volumes: 1.</p>
+          <img src="images/nffs/14.png" width="720px">
+          <p>5.7. → Imprimir a NOTA do cliente.</p>
+          <p>5.8. → Confererir se a NFS e NFE está: E0 e CT. E a TNF e NNF está: E0 e CF.</p>
+          <img src="images/nffs/15.png" width="720px">
+        </div>
+
+
+
+
+
+  </section>
+  <section>
+
+
+  </section>
+    
+
+    <footer class = "rodape"> 
+      <span>Direitos de Autor. © 2022 Goldentec, Inc. Todos os direitos reservados.</span>
+
+    </footer>
+  </body>
+</html>

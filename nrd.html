@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://kit.fontawesome.com/29520a49ae.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link href='https://css.gg/arrow-right-r.css' rel='stylesheet'>
+    <title>Wiki GT Provedores</title>
+    <head><style> a {text-decoration: none; } </style> </head>
+  </head>
+  <body>
+	<script src="index.js"></script>
+
+  <section>
+    <header> 
+      <div class="content">
+        <div class="logo">
+          <a href="index.html"><img src = "images/logo2.png" alt = "logo da GT"></a>
+        </div>
+        <div class="menu"> 
+          <nav>
+            <a href="index.html"> Home </a>
+            <a href="sobre.html"> Sobre </a>
+            <a href="sobre.html"> Provedores </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </section>
+    
+  <section>
+    <div class="os">
+      <h3>Gerar NRD - Devolução de Compra</h3>
+      <i><h4>Finalizar Devolução de Loja</h4></i>
+  
+      <p><b>1.</b> Clicar em Ibyte > Logística > Critérios
+        <div class="sub">
+          <p><b>1.1.</b> Alterar Documento para: NRD e preencher como imagem abaixo. <br></p>
+          <p><b>1.2.</b> Preencher com informações que vieram no documento do produto. <br></p>
+          <img src="images/nrdLoja/1..png" width="720px">
+        </div>
+
+
+      <p><b>2.</b> Validar entrada do produto. 
+        <div class="sub">
+          <p><b>2.1.</b> Clicar em VEE. <br></p>
+          <img src="images/nrdLoja/2.png" width="720px">
+          <p><b>2.2.</b> Digitar código de barras do produto.<br></p>
+          <img src="images/nrdLoja/3.png" width="720px">
+        </div>
+
+    
+
+      <p><b>3.</b> Clicar em DOC FISCAL > RMA > Gerar Devolução TNF (NRD)
+        <p><a href="nota.html">→ Caso não haja nota com a caixa.</p></a>
+        <div class="sub">
+          <img src="images/nrdLoja/4.png" width="720px">
+          
+        </div>
+
+
+      <p><b>4.</b> Preencher Número do Documento F??/Número do documento físico. (NUMERO DA NOTA EM CIMA DA LOJA)
+        <div class="sub">
+          <p><b>4.1.</b> Filial F51: final do CNPJ 53-35 / Filial  F03: final do CNPJ 04-57 / Modelo: F51/938491<br></p>
+          <p><b>4.2.</b> Data de Emissão Modelo: 2022-10-26 (Data que estiver no documento).<br></p>
+        </div>
+
+      <p><b>5.</b> Selecionar a TNF > Clicar em Operacional > Confirmar Fornecimento.
+        <div class="sub">
+          <p><b>5.1.</b> Digitar CHAVE DE ACESSO da nota e CNPJ do cliente sem marcadores.<br></p>
+        </div>       
+
+      <p><b>6.</b> Clicar em Relatórios > Expedição > Imprimir Garantia (Método de atualização).
+        <div class="sub">
+          <p><b>6.1.</b> Verificar se ST OP = CT e CF. Se sim, OK. <br></p>
+        </div>
+
+      <p><b>7.</b> Retonar ao começo inicio do Minimal.
+        <div class="sub">
+          <p><b>7.1.</b> Logística - Transferência. <br></p>
+          <p><b>7.2.</b> AR = AR / 51 e Código do produto. <br></p>
+          <img src="images/nrdLoja/7.png" width="720px">
+        </div>
+      
+      <p><b>8.</b> Movimentar para o T03.
+        <div class="sub">
+          <p><b>8.1.</b> Clicar em INS_NRS_NRE. <br></p>
+          <img src="images/nrdLoja/8.png" width="720px">
+          <p><b>8.2.</b> AR Destino = T03. <br></p>
+          <img src="images/nrdLoja/9.png" width="720px">
+        </div>
+
+      <p><b>9.</b> Retornar ao inicio do Minimal Logística 
+        <div class="sub">
+          <p><b>9.1.</b> Preencher como abaixo: (Data de hoje).<br></p>
+          <img src="images/nrdLoja/10.png" width="720px">
+          <p><b>9.1.</b>Linhas > Digitar Código do produto. <br></p>
+        </div>
+
+      <p><b>10.</b> Selecionar NRS.
+        <div class="sub">
+          <p><b>10.1.</b> Operacional > Confirma Emissão.<br></p>
+          <p><b>10.2.</b> Contábil > Confirma.<br></p>
+          <img src="images/nrdLoja/11.png" width="720px">
+        </div>
+
+      <p><b>11.</b> Selecionar NRS e Clicar em VSE.
+        <div class="sub">
+          <p><b>11.1.</b> Recolher código de barras e digitar.<br></p>
+          <p><b>11.2.</b> Serial Number(Código de Barras) + 01. <br></p>
+          <img src="images/nrdLoja/11.png" width="720px">
+        </div>
+
+      <p><b>12.</b> Gerar NNF de Saída.
+        <div class="sub">
+          <p><b>12.1.</b> Doc Fiscal > Transferênca > Gerar NNF Saída RMA (NRS).<br></p>
+          <img src="images/nrdLoja/12.png" width="720px">
+        </div>
+
+      <p><b>13.</b> Selecionar NNF > IMP.
+         <div class="sub">
+          <p><b>13.1.</b> Preencher "QTD de Volumes" e "Tipo de Frete".<br></p>
+          <img src="images/nrdLoja/13.png" width="720px">
+        </div>
+
+      <p><b>14.</b> Selecionar Nota Gerada (Primeira Opção) > Relatórios > Imprimir Garantia (Atualização).
+        <div class="sub">
+          <img src="images/nrdLoja/14.png" width="720px">
+      </div>
+    
+      <p><b>15.</b> Selecioar a NRE e clicar em VEE.
+        <div class="sub">
+        <p><b>15.1.</b> Digitar Código de Barras e Serial Number novamente.<br></p>
+        <img src="images/nrdLoja/15.png" width="720px">
+      </div>
+
+      <p><b>16.</b> Caso não atualize para CF.
+        <div class="sub">
+        <p><b>16.1.</b> Operacional > Confirmar Fornecimento.<br></p>
+        <img src="images/nrdLoja/16.png" width="720px">
+      </div>
+
+      <p><b>17.</b> Transferir TNF.
+        <div class="sub">
+        <p><b>17.1.</b> Doc Fiscal > Transferências > Gerar TNF entr. RMA (NRE).<br></p>
+        <p><b>17.2.</b> Preencher com data de emissão e de selo (hoje).<br></p>
+        <img src="images/nrdLoja/17.png" width="720px">
+      </div>
+
+      <p><b>18.</b> Finalizar.
+        <div class="sub">
+        <p><b>18.1.</b> Clicar em Operacional > Confirmar Fornecimento/Operação.<br></p>
+        <img src="images/nrdLoja/18.png" width="720px">
+        <br>
+        <br>
+      </div>
+          
+    </div>
+
+
+  
+  <section>
+
+
+    
+  </section>
+
+  <section>
+
+
+  </section>
+    
+
+    <footer class = "rodape"> 
+      <span>Direitos de Autor. © 2022 Goldentec, Inc. Todos os direitos reservados.</span>
+
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400&display=swap');
+
+/*body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    height: 5000px;
+}*/
+
+*{
+    font-family: 'Multa', sans-serif;
+    box-sizing: border-box;
+}
+a { color: inherit; } 
+
+
+/* HEADER */
+
+.content{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+header{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 7px;
+}
+
+.logo img{
+    width: 170px;
+    height: 40px;
+
+}
+
+.logo, .menu{
+    width: 30%;
+}
+
+.menu nav a{
+    color: #000000;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+/* Section Main */
+.box{
+    background: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+    padding: 3px;
+    margin: 3px;
+    border-radius: 10px;
+}
+.conteiner{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    /* grid-template-rows: repeat(3, 1fr);
+    height: 100vh;*/
+
+    grid-gap: 6px; /*Gap na linha e coluna*/
+    grid-auto-rows: 300px
+    
+
+}
+
+/* BOX 1 */
+
+.box-1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    font-size: 14px;
+}
+    
+.box-1 h2{
+    text-align: center;
+    justify-content: center;
+    font-size: 27px;
+}
+
+.box-1 h3{
+    padding-left: 45px;
+}
+
+.box-1 p{
+    padding-left: 55px;
+}
+
+.box-1 img{
+    padding-left: 5px;
+    width: 600px;
+    height: 170px;
+}
+
+/* BOX 2 */
+
+.box-2{
+    text-align: center;
+}
+
+.box-2 img{
+    width: 300px;
+    height: 70px;
+}
+
+.box-2 p{
+    font-size: 18px;
+
+}
+
+.box-2 img{
+    padding-left: 5px;
+    width: 600px;
+    height: 190px;
+}
+
+/* BOX 3 */
+
+.box-3{
+    text-align: center;
+}
+
+.box-3 p{
+    font-size: 18px;
+
+}
+
+.box-3 h2{
+    text-align: center;
+    justify-content: center;
+
+}
+
+.box-3 img{
+    padding-left: 5px;
+    width: 600px;
+    height: 190px;
+}
+
+/* BOX 4 */
+
+.box-4{
+    
+    text-align: center;
+}
+
+.box-4 h2{
+    text-align: center;
+    justify-content: center;
+}
+
+.gridcto{
+    margin: 1px;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gridcto-1{
+    padding-left: 24px;
+    font-size: 18px;
+}
+
+.gridcto-2{
+    padding-left: 24px;
+    font-size: 18px;
+    
+}
+
+.gridcto-3{
+    padding-left: 24px;
+    font-size: 18px;
+}
+.box-4 img{
+    width: 136px;
+    height: 136px;
+}
+
+
+/* BOX 5 */
+.contOnu{
+    margin: 1px;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid{
+    
+}
+
+.grid-1{
+    padding-left: 24px;
+    font-size: 18px;
+    
+}
+
+.grid-2{
+    padding-left: 24px;
+    font-size: 18px;
+}
+
+.grid-3{
+    padding-left: 24px;
+    font-size: 18px;
+}
+.box-5 img{
+    width: 136px;
+    height: 136px;
+}
+
+.box-5 p{
+    font-size: 18px;
+    padding-left: 39px;
+}
+
+.box-5 > h2{
+    text-align: center;
+    justify-content: center;
+}
+/* OS */
+.os{
+    font-size: 20px;
+}
+
+.os > h3{
+    text-align: center;
+    font-size: 38px;
+}
+
+.os h4{
+    text-align: center;
+
+}
+
+/* sub */
+.sub{
+    font-size: 15px;
+    padding-left: 31px;
+}
+
+.links{
+    color: blue;
+}
+
+.pos  {
+    color: blue;
+}
+
+.flux img {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* RODAPÉ */
+footer{
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
